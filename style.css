@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+   /* background-color: #f0f2f6; Ensure body background is light */
+   background-color:##faf6e6;
+}
+
+/* --- Main Card Styling for Posts --- */
+.post-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e1e4e8;
+    padding: 24px;
+    margin-bottom: 20px; /* Crucial for spacing between cards */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.post-card:hover {
+    /*transform: translateY(-4px);*/
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
+
+/* --- Profile Picture Styling --- */
+.stImage > img {
+    border-radius: 50%;
+    width: 55px; /* Fixed size for profile pics */
+    height: 55px;
+    object-fit: cover;
+}
+
+/* Link Styling for Post Titles */
+a {
+    text-decoration: none;
+    color: #31333F;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #0083B0; /* primaryColor */
+}
+
+/* Button Styling */
+.stButton>button {
+    border-radius: 8px;
+    border: 1px solid #d4d4d4;
+    background-color: #ffffff;
+    color: #31333F;
+}
+
+.stButton>button:hover {
+    background-color: #f0f2f6;
+    border-color: #c0c0c0;
+}
